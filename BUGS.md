@@ -3,7 +3,8 @@
 **Severity:** High
 **Found in:** Attendance entry form
 
-I found this when running calculation verification checks during local boundary validation tests on the attendance logic.
+I found this when I was testing out the attendance form inputs and noticed it saved a minus sign without errors.
+
 **Steps to reproduce:**
 1. Login as Site Manager
 2. Go to Attendance Entry
@@ -21,7 +22,7 @@ I found this when running calculation verification checks during local boundary 
 **Severity:** High
 **Found in:** Monthly attendance summary
 
-I found this when reviewing the monthly system summary behavior for period-end inputs exceeding standard monthly bounds.
+I found this when trying to type in extra long shift summaries for the monthly limits.
 
 **Steps to reproduce:**
 1. Login as HR
@@ -40,7 +41,8 @@ I found this when reviewing the monthly system summary behavior for period-end i
 **Severity:** Medium
 **Found in:** Payroll generation
 
-I found this when executing status-check routines on offboarded credentials during system workflow simulations.
+I found this when checking if a user profile that I deactivated could still generate a document layout.
+
 **Steps to reproduce:**
 1. Deactivate a worker from the system
 2. Run monthly payroll
@@ -56,7 +58,8 @@ I found this when executing status-check routines on offboarded credentials duri
 
 **Severity:** Medium
 **Found in:** Payroll settings
-I found this when testing custom rate configurations against global multiplier limits in the administration console.
+
+I found this when clicking through the admin settings looking for a way to change the shift multiplier scale.
 
 **Steps to reproduce:**
 1. Login as Admin
@@ -73,7 +76,8 @@ I found this when testing custom rate configurations against global multiplier l
 
 **Severity:** High
 **Found in:** Attendance management
-I found this when inspecting change logging behaviors for retroactive timesheet modifications in the ledger database.
+
+I found this when modifying an entry that had already been saved and checking the history timeline changes.
 
 **Steps to reproduce:**
 1. Site Manager submits attendance for a worker
