@@ -3,8 +3,7 @@
 **Severity:** High
 **Found in:** Attendance entry form
 
-I noticed this while going through the attendance entry form as a site manager - there is no check stopping someone from typing a negative number in the overtime field.
-
+### I noticed this while going through the attendance entry form as a site manager - there is no check stopping someone from typing a negative number in the overtime field.
 **Steps to reproduce:**
 1. Login as Site Manager
 2. Go to Attendance Entry
@@ -22,8 +21,7 @@ I noticed this while going through the attendance entry form as a site manager -
 **Severity:** High
 **Found in:** Monthly attendance summary
 
-I was checking monthly attendance and realised nothing stops you from entering 35 days worked for a month that only has 30 days.
-
+### I was checking monthly attendance and realised nothing stops you from entering 35 days worked for a month that only has 30 days.
 **Steps to reproduce:**
 1. Login as HR
 2. Open attendance for any worker
@@ -41,8 +39,7 @@ I was checking monthly attendance and realised nothing stops you from entering 3
 **Severity:** Medium
 **Found in:** Payroll generation
 
-I deactivated a test worker and then ran payroll, and was surprised to see a payslip still got generated for them.
-
+### I deactivated a test worker and then ran payroll, and was surprised to see a payslip still got generated for them.
 **Steps to reproduce:**
 1. Deactivate a worker from the system
 2. Run monthly payroll
@@ -59,8 +56,7 @@ I deactivated a test worker and then ran payroll, and was surprised to see a pay
 **Severity:** Medium
 **Found in:** Payroll settings
 
-I looked for a place to change the overtime multiplier in settings and couldn't find one - it seems the 1.5x rate is just hardcoded in.
-
+### I looked for a place to change the overtime multiplier in settings and couldn't find one - it seems the 1.5x rate is just hardcoded in.
 **Steps to reproduce:**
 1. Login as Admin
 2. Go to Payroll Settings
@@ -73,12 +69,10 @@ I looked for a place to change the overtime multiplier in settings and couldn't 
 ---
 
 ## Bug #5: No audit log when attendance is edited after submission
-
 **Severity:** High
 **Found in:** Attendance management
 
-I edited an attendance entry after it was submitted and there was no record of who changed it or when - the change just happened silently.
-
+### I edited an attendance entry after it was submitted and there was no record of who changed it or when - the change just happened silently.
 **Steps to reproduce:**
 1. Site Manager submits attendance for a worker
 2. HR edits the attendance after submission
