@@ -1,0 +1,2 @@
+# QA Test Suite Overview
+This test suite handles verification for core functions of the construction HRMS application. It includes automated calculation validation scripts for regular and overtime payroll scales, alongside data tracking assertions monitoring standard shifts to prevent negative entry or overflow hours.
