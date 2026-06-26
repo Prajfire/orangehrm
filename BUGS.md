@@ -3,6 +3,7 @@
 **Severity:** High
 **Found in:** Attendance entry form
 
+I found this when running calculation verification checks during local boundary validation tests on the attendance logic.
 **Steps to reproduce:**
 1. Login as Site Manager
 2. Go to Attendance Entry
@@ -19,6 +20,8 @@
 
 **Severity:** High
 **Found in:** Monthly attendance summary
+
+I found this when reviewing the monthly system summary behavior for period-end inputs exceeding standard monthly bounds.
 
 **Steps to reproduce:**
 1. Login as HR
@@ -37,6 +40,7 @@
 **Severity:** Medium
 **Found in:** Payroll generation
 
+I found this when executing status-check routines on offboarded credentials during system workflow simulations.
 **Steps to reproduce:**
 1. Deactivate a worker from the system
 2. Run monthly payroll
@@ -52,6 +56,7 @@
 
 **Severity:** Medium
 **Found in:** Payroll settings
+I found this when testing custom rate configurations against global multiplier limits in the administration console.
 
 **Steps to reproduce:**
 1. Login as Admin
@@ -68,6 +73,7 @@
 
 **Severity:** High
 **Found in:** Attendance management
+I found this when inspecting change logging behaviors for retroactive timesheet modifications in the ledger database.
 
 **Steps to reproduce:**
 1. Site Manager submits attendance for a worker
