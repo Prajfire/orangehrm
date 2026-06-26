@@ -1,6 +1,5 @@
-# QA Engineering Test Suite Integration
-This project repository features an integrated automated testing framework constructed utilizing pytest. The verification scripts target critical payroll calculations and attendance tracking workflows to identify processing discrepancies and secure data integrity.
-
+# My QA Test Suite
+I forked this OrangeHRM repository for my QA assignment. I created a new folder called qa_tests and wrote custom Python tests to make sure the payroll calculations calculate salaries properly and the attendance entry handles wrong or negative values correctly. I also documented 5 functional bugs I discovered in BUGS.md.
 ---
 
 <img width="40%" alt='OrangeHRM' src='https://raw.githubusercontent.com/wiki/orangehrm/orangehrm/logos/logo.svg#gh-light-mode-only'/><img width="40%" alt='OrangeHRM' src='https://raw.githubusercontent.com/wiki/orangehrm/orangehrm/logos/logo_dark_mode.svg#gh-dark-mode-only'/>
