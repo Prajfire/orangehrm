@@ -3,7 +3,7 @@
 **Severity:** High
 **Found in:** Attendance entry form
 
-I found this when I was testing out the attendance form inputs and noticed it saved a minus sign without errors.
+I noticed this while going through the attendance entry form as a site manager - there is no check stopping someone from typing a negative number in the overtime field.
 
 **Steps to reproduce:**
 1. Login as Site Manager
@@ -22,7 +22,7 @@ I found this when I was testing out the attendance form inputs and noticed it sa
 **Severity:** High
 **Found in:** Monthly attendance summary
 
-I found this when trying to type in extra long shift summaries for the monthly limits.
+I was checking monthly attendance and realised nothing stops you from entering 35 days worked for a month that only has 30 days.
 
 **Steps to reproduce:**
 1. Login as HR
@@ -41,7 +41,7 @@ I found this when trying to type in extra long shift summaries for the monthly l
 **Severity:** Medium
 **Found in:** Payroll generation
 
-I found this when checking if a user profile that I deactivated could still generate a document layout.
+I deactivated a test worker and then ran payroll, and was surprised to see a payslip still got generated for them.
 
 **Steps to reproduce:**
 1. Deactivate a worker from the system
@@ -59,7 +59,7 @@ I found this when checking if a user profile that I deactivated could still gene
 **Severity:** Medium
 **Found in:** Payroll settings
 
-I found this when clicking through the admin settings looking for a way to change the shift multiplier scale.
+I looked for a place to change the overtime multiplier in settings and couldn't find one - it seems the 1.5x rate is just hardcoded in.
 
 **Steps to reproduce:**
 1. Login as Admin
@@ -77,7 +77,7 @@ I found this when clicking through the admin settings looking for a way to chang
 **Severity:** High
 **Found in:** Attendance management
 
-I found this when modifying an entry that had already been saved and checking the history timeline changes.
+I edited an attendance entry after it was submitted and there was no record of who changed it or when - the change just happened silently.
 
 **Steps to reproduce:**
 1. Site Manager submits attendance for a worker
